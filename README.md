@@ -4,14 +4,14 @@
 ## 1. Repository Fork
 
 1. GitHub에서 Project 페이지로 이동합니다.  
-   url :  `https://github.com/woohyuk0428/Growthon.com`
+   url :  `https://github.com/woohyuk0428/Growthon.git`
 
 2. 페이지 우측 상단의 **Fork** 버튼을 클릭합니다.
 
 3. "Create a new fork" 옵션을 선택하고, **Create Fork** 버튼을 눌러 내 GitHub 계정으로 저장소를 복사합니다.
 
 4. Fork가 완료되면, 내 GitHub 계정에서 Fork된 저장소를 확인할 수 있습니다.  
-   예: `https://github.com/내GitHub아이디/Growthon`
+   예: `https://github.com/내GitHub아이디/Growthon.git`
 
 ---
 
@@ -29,7 +29,7 @@ git clone https://github.com/내GitHub아이디/Growthon.git
 cd Growthon
 ```
 
-## 3. create Project
+## 3. Create Project
 
 1. src 디렉토리 안에 각 파트별 프로젝트 생성
 
@@ -50,3 +50,21 @@ my-project/
 ├── README.md         # 프로젝트 설명
 ├── LICENSE           # 라이선스 정보
 └── requirements.txt  # 의존성 목록 (파이썬 프로젝트 기준)
+
+## 5. Commit Convention
+
+깃 프로젝트에서 커밋 메시지는 매우 중요합니다. 명확하고 일관된 커밋 메시지를 사용하는 것이 좋습니다.
+
+feat: 새로운 기능 추가
+
+fix: 버그 수정
+
+docs: 문서 수정
+
+style: 코드 스타일 수정 (로직에 영향 없음)
+
+refactor: 코드 리팩토링 (기능 변경 없음)
+
+test: 테스트 추가/수정
+
+chore: 기타 수정 (빌드 도구, 패키지 관리 등)
