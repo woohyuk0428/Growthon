@@ -32,7 +32,7 @@ cd Growthon
 ## 3. create Project
 
 1. src 디렉토리 안에 각 파트별 프로젝트 생성
-ex)
+
 frontend: 
 ```bash
 react-active-create frontend
@@ -40,3 +40,13 @@ cd frontend
 ```
 backend:
 src안에 "backend" 로 프로잭트 생성
+
+## 4. Project Structure
+my-project/
+├── src/              # 소스 코드
+├── docs/             # 문서화 관련
+├── tests/            # 테스트 코드
+├── .gitignore        # Git에서 무시할 파일 목록
+├── README.md         # 프로젝트 설명
+├── LICENSE           # 라이선스 정보
+└── requirements.txt  # 의존성 목록 (파이썬 프로젝트 기준)
